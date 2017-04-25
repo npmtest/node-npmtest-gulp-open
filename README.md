@@ -1,4 +1,7 @@
-# test coverage for  [gulp-open (v2.0.0)](http://github.com/stevelacy/gulp-open)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-open.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-open) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-open.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-open)
+# npmtest-gulp-open
+
+#### basic test coverage for  [gulp-open (v2.0.0)](http://github.com/stevelacy/gulp-open)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-open.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-open) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-open.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-open)
+
 #### Open files and URLs with gulp
 
 [![NPM](https://nodei.co/npm/gulp-open.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-open)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-open/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-open/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-open/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-open/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-open/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-open/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-open/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-open/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-open/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-open/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-open/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-open/build/coverage.html/index.html)
 
@@ -85,7 +88,8 @@
         "pretest": "jshint *.js test/*.js",
         "test": "mocha --reporter spec"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
